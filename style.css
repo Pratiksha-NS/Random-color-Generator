@@ -1,0 +1,44 @@
+h1{
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 3rem;
+}
+
+.item{
+    text-align: center;
+}
+
+body{
+    background: wheat;
+}
+
+.container{
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.box{
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #19172e;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-size: 1.5rem;
+}
+
+.btn{
+    height: 40px;
+   font-size: 30px;
+   border-radius: 10px;
+   border: 0;
+   background: rgb(16, 16, 97);
+   color: white;
+   font-family: 'Dancing Script', cursive;
+}
+
+.btn:hover{
+    background: rgb(113, 113, 179);
+}
